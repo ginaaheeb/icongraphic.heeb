@@ -25,7 +25,9 @@ html, body {
 
 h1 {text-align: center; font-family: 'Times New Roman'; padding: 35px; font-size: 1.5em;}
 h4 {padding-left: 42px;}
-.fas {font-size: 10em; display: flex; align-items: center;}
+.intro {text-align: center; padding: 200px;}
+.fas {font-size: 10em; display: relative}
+span {display: inline-block}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
