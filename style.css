@@ -24,8 +24,8 @@ html, body {
 }
 
 h1 {text-align: center; font-family: 'Times New Roman'; padding: 35px; font-size: 1.5em;}
-h4 {padding-left: 25px}
-
+h4 {padding-left: 42px;}
+.fas {font-size: 10em; display: flex; align-items: center;}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
@@ -43,4 +43,5 @@ h4 {padding-left: 25px}
     Note these styles will be applied to anything 729px or larger -- so desktop */
 
     h1 {font-size: 2.25em;}
+    h4 {padding-left: 52px;}
 }
