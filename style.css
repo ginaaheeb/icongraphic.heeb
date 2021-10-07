@@ -26,8 +26,8 @@ html, body {
 h1 {text-align: center; font-family: 'Times New Roman'; padding: 35px; font-size: 1.5em;}
 h4 {padding-left: 42px;}
 .intro {text-align: center;padding: 25px;}
-.fas {font-size: 6em; display: relative;}
-.column {display:flexbox;  align-items:flex-start; object-position:left;}
+.fas {font-size: 6em; display: relative;text-align:center;}
+.column {display:flexbox;  align-items:flex-start;}
 .myiframe {position:center;}
 
 .container{
@@ -38,24 +38,13 @@ h4 {padding-left: 42px;}
 
 .caption {color:grey;text-align:center;font-size:.75em;}
 
-.icon {
-  width: 280px;
+.icon {text-align:center; padding-right:2em;
+
 }
-.icon ul {
-  margin-left: -15px;
-}
-.icon ul li {
-  list-style-type: none;
-  margin-bottom: 35px;
-  font-size: 20px;
-  display: flex;
-}
-.icon ul li i {
-  margin-right: 10px;
-}
-.icon ul li p {
-  margin: 0;
-}
+
+.description {display:block; text-align:center;}
+
+.ul {margin-bottom: 35px;}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
@@ -64,11 +53,17 @@ h4 {padding-left: 42px;}
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
     .intro {text-align: center;}
+    h1 {font-size: 2.25em;}
+    h4 {padding-left: 52px;}
+   .fas {font-size:10em}
 
-    .icons{
+    .column{
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between; 
+      flex-basis:25%;
     }
+    
 }
 
 /*********************************************************************
@@ -82,4 +77,5 @@ h4 {padding-left: 42px;}
     h4 {padding-left: 52px;}
    .fas {font-size:10em}
     .intro {text-align: center; padding: 10px;}
+    .icon {padding-left:6.5em;}
 }
