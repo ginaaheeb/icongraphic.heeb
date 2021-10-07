@@ -38,9 +38,23 @@ h4 {padding-left: 42px;}
 
 .caption {color:grey;text-align:center;font-size:.75em;}
 
-
-.row{
-  flex: 50%; row-gap:75%; padding:5px;
+.icon {
+  width: 280px;
+}
+.icon ul {
+  margin-left: -15px;
+}
+.icon ul li {
+  list-style-type: none;
+  margin-bottom: 35px;
+  font-size: 20px;
+  display: flex;
+}
+.icon ul li i {
+  margin-right: 10px;
+}
+.icon ul li p {
+  margin: 0;
 }
 
 /*********************************************************************
