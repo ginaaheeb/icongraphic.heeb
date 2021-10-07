@@ -25,9 +25,23 @@ html, body {
 
 h1 {text-align: center; font-family: 'Times New Roman'; padding: 35px; font-size: 1.5em;}
 h4 {padding-left: 42px;}
-.intro {text-align: center; padding: 200px;}
-.fas {font-size: 10em; display: relative}
-span {display: inline-block}
+.intro {text-align: center;padding: 25px;}
+.fas {font-size: 6em; display: relative}
+.column {display:flexbox;  align-items:flex-start; object-position:left;}
+.description::after {content:icon;}
+
+.container{
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 800px; 
+}
+
+.caption {color:grey;text-align:center;}
+
+
+.row{
+  flex: 50%; row-gap:75%; padding:5px;
+}
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
@@ -35,6 +49,12 @@ span {display: inline-block}
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .intro {text-align: center;}
+
+    .icons{
+      display: flex;
+      flex-wrap: wrap;
+    }
 }
 
 /*********************************************************************
@@ -46,4 +66,6 @@ span {display: inline-block}
 
     h1 {font-size: 2.25em;}
     h4 {padding-left: 52px;}
+   .fas {font-size:10em}
+    .intro {text-align: center; padding: 10px;}
 }
